@@ -1,0 +1,88 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <title>gallary</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>ONKAR</h1>
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Info</a>
+      </nav>
+    </header>
+
+    <div class="mainbody">
+      <article class="row1">
+        <section class="row1col col1-1">
+          <h2>Cat:my pet</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+            iste architecto, labore qui quis unde aliquid! Aperiam harum, ut
+            laudantium excepturi voluptatem culpa iure ullam sed natus nihil
+            quisquam nulla?
+          </p>
+        </section>
+        <section class="row1col col1-2">
+          <img class="catphoto" src="assets/media/catSketch.jpg" alt="cat" />
+        </section>
+      </article>
+      <div class="gallary">
+        <h2>Gallary</h2>
+        <div class="row2">
+          <div class="block">
+            <img class="gallaryimg" src="assets/media/bulb.png" alt="bulb" />
+          </div>
+          <div class="block">
+            <img class="gallaryimg" src="assets/media/lady.png" alt="bulb" />
+          </div>
+          <div class="block">
+            <img class="gallaryimg" src="assets/media/table.png" alt="bulb" />
+          </div>
+        </div>
+        <div class="row2">
+          <div class="block">
+            <img
+              class="gallaryimg"
+              src="assets/media/ironman.jpeg"
+              alt="bulb"
+            />
+          </div>
+          <div class="block">
+            <img class="gallaryimg" src="assets/media/mario.jpeg" alt="bulb" />
+          </div>
+          <div class="block">
+            <img
+              class="gallaryimg"
+              src="assets/media/butterfly.jpeg"
+              alt="bulb"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="fixbutton" href="#">Go to top</a>
+    <footer class="footer">
+      <h2>@oshingate</h2>
+    </footer>
+  </body>
+</html>
